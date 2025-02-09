@@ -15,7 +15,7 @@ function agregarAmigo() {  //Funcion Adicionar Amigo Secreto a la lista
         listaAmigosCompleta.push(document.getElementById('amigo').value);
         document.getElementById('amigo').value = '';
         document.getElementById('amigo').focus();
-        console.log(listaAmigosCompleta);
+        console.log(listaAmigos);
     } else if (document.getElementById('amigo').value == '') { //Valda si añade un valor vacio
         alert('Por favor, ingresar un Nombre');
         return;
