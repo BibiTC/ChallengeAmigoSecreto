@@ -16,7 +16,6 @@ function agregarAmigo() {  //Funcion Adicionar Amigo Secreto a la lista
     if (amigo != '') { //Valida que no sea un valor vacio
  
         if (listaAmigos.includes(amigo) == false) { //Valda si el amigo ya fue ingresado a la lista
-            console.log('Entro');
             listaAmigos.push(document.getElementById('amigo').value);
             document.getElementById('amigo').value = '';
             document.getElementById('amigo').focus();
@@ -33,6 +32,3 @@ function agregarAmigo() {  //Funcion Adicionar Amigo Secreto a la lista
         
     }
 }
-
-
-
