@@ -62,7 +62,7 @@ function mostrarAmigos(){//Funcion Mostrar Amigos
     */
    } 
 
-function seleccionarAmigo() { //Funcion Seleccionar Amigo Secreto
+function sortearAmigo() { //Funcion Seleccionar Amigo Secreto
     let mostrarAmigoSecreto = document.getElementById('aresultado'); //Lista donde se muestra el amigo secreto
     
     if (listaAmigos.length >= 2) { //Valida que haya al menos 2 amigos en la lista
