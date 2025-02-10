@@ -52,4 +52,13 @@ function mostrarAmigos(){//Funcion Mostrar Amigos
         const element = listaAmigos[i];
         mostrarLista.innerHTML += `<li>${element}</li>`;
     }
+
+    /*
+        listaAmigos.forEach(listaAmigos => { 
+            let li = document.createElement('li'); // Crear elemento <li>
+            li.textContent = listaAmigos; // Agregar el nombre del amigo como texto
+            mostrarLista.appendChild(li); // Añadir el <li> al ul
+        });
+    */
    } 
+
