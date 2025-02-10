@@ -36,3 +36,20 @@ function limpiarNombre() { //Funcion Limpiar Texto
     document.getElementById('amigo').value = '';
     document.getElementById('amigo').focus();
 }
+
+// 2. Función que recibe un array de nombres y los lista en pantalla.
+
+function mostrarAmigos(){//Funcion Mostrar Amigos
+    let mostrarLista = document.getElementById('listaAmigos'); 
+    mostrarLista.innerHTML = "" // Limpia la lista antes de mostrarla
+    
+    if (listaAmigos.length === 0) { // Si no hay amigos en la lista
+        mostrarLista.innerHTML = "<li>No hay amigos en la lista aún.</li>";
+        return;
+    }
+    
+    for (let i = 0; i < listaAmigos.length; i++) {
+        const element = listaAmigos[i];
+        mostrarLista.innerHTML += `<li>${element}</li>`;
+    }
+   } 
