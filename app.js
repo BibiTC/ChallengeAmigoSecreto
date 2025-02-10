@@ -12,23 +12,27 @@ let listaAmigos = [];           // Lista de amigos
 // 1. Función que recibe un array de nombres y lista los nombres ingresados por pantalla.
 function agregarAmigo() {  //Funcion Adicionar Amigo Secreto a la lista
     let amigo = document.getElementById('amigo').value; //Obtiene el valor del input
-
+ 
     if (amigo != '') { //Valida que no sea un valor vacio
-        if (listaAmigos.length > 0 && listaAmigos.include(amigo) == false) { //Valda si el amigo ya fue ingresado a la lista
+ 
+        if (listaAmigos.includes(amigo) == false) { //Valda si el amigo ya fue ingresado a la lista
+            console.log('Entro');
             listaAmigos.push(document.getElementById('amigo').value);
             document.getElementById('amigo').value = '';
             document.getElementById('amigo').focus();
             console.log(listaAmigos);
-        }else if (listaAmigos.length > 0 && listaAmigos.include(amigo) == true) { //Valda si el amigo ya fue ingresado a la lista
+        }else if (listaAmigos.includes(amigo) == true) { //Valda si el amigo ya fue ingresado a la lista
             alert(`Amigo(a) ${amigo} ya fue agregado(a)`);
             document.getElementById('amigo').value = '';
             document.getElementById('amigo').focus();
-
+            return;
         }
-    } else if (document.getElementById('amigo').value == '') { //Ingresar valor diferente a vacio
+
+    }else if (document.getElementById('amigo').value == '') { //Ingresar valor diferente a vacio
         alert('Por favor, ingresar un Nombre');
-        return;
+        
     }
 }
+
 
 
