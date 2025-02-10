@@ -16,19 +16,23 @@ function agregarAmigo() {  //Funcion Adicionar Amigo Secreto a la lista
     if (amigo != '') { //Valida que no sea un valor vacio
  
         if (listaAmigos.includes(amigo) == false) { //Valda si el amigo ya fue ingresado a la lista
-            listaAmigos.push(document.getElementById('amigo').value);
-            document.getElementById('amigo').value = '';
-            document.getElementById('amigo').focus();
+            listaAmigos.push(amigo);
+            limpiarNombre();
             console.log(listaAmigos);
         }else if (listaAmigos.includes(amigo) == true) { //Valda si el amigo ya fue ingresado a la lista
             alert(`Amigo(a) ${amigo} ya fue agregado(a)`);
-            document.getElementById('amigo').value = '';
-            document.getElementById('amigo').focus();
-            return;
+            limpiarNombre();
+
+            return false;
         }
 
     }else if (document.getElementById('amigo').value == '') { //Ingresar valor diferente a vacio
         alert('Por favor, ingresar un Nombre');
         
     }
+}
+
+function limpiarNombre() { //Funcion Limpiar Texto
+    document.getElementById('amigo').value = '';
+    document.getElementById('amigo').focus();
 }
