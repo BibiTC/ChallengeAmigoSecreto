@@ -3,13 +3,17 @@
     Challenge Amigo Secreto
     <br />
     <br />
-    <a href="https://docusaurus.io">
-      <img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus">
+      <img src=".img/PortadaAmigoSecreto.png" alt="Portada Amigo Secreto" class="container__imagen-portada" />
     </a>
   </h1>
 </div>
 
 <p align="center">
+
+
+
+
+
   <a href="https://x.com/docusaurus"><img src="https://img.shields.io/twitter/follow/docusaurus.svg?style=social" align="right" alt="Twitter Follow" /></a>
   <a href="#backers" alt="sponsors on Open Collective"><img src="https://opencollective.com/Docusaurus/backers/badge.svg" /></a>
   <a href="#sponsors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/Docusaurus/sponsors/badge.svg" /></a>
