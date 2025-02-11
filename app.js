@@ -62,13 +62,16 @@ function mostrarAmigos(){//Funcion Mostrar Amigos
     */
    } 
 
-function sortearAmigo() { //Funcion Seleccionar Amigo Secreto
+function sortearAmigo() { //Funcion sortear Amigo Secreto
     let mostrarAmigoSecreto = document.getElementById('aresultado'); //Lista donde se muestra el amigo secreto
-    
+    mostrarAmigoSecreto.innerHTML = "" // Limpia la lista antes de mostrarla
+console.log(`Lista Amigos Completa: ${listaAmigos}`);
     if (listaAmigos.length >= 2) { //Valida que haya al menos 2 amigos en la lista
         let idAmigoSecreto = listaAmigos[Math.floor(Math.random() * listaAmigos.length)+1]; //Selecciona un amigo aleatorio
+console.log(`idAmigoSecreto: ${idAmigoSecreto}`);
         const amigoAsignado = listaAmigos[idAmigoSecreto]; //Obtiene el amigo seleccionado
-        mostrarAmigoSecreto.innerHTML = `<li>'Amigo Secreto:' + ${amigoAsignado}</li>`;
+console.log(`Amigo Asignado: ${amigoAsignado}`);
+        mostrarAmigoSecreto.innerHTML = `<li>${amigoAsignado}</li>`;
     }else if (listaAmigos.length == 0) { //Valida que la lista no este vacia
         alert('La lista de amigos esta vacia');
         return false;
