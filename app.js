@@ -71,7 +71,7 @@ function sortearAmigo() { //Funcion sortear Amigo Secreto
         let amigoAsignado = listaAmigos[idAmigoSecreto]; //Obtiene el amigo seleccionado
         const element = listaAmigos[idAmigoSecreto];
         
-        mostrarAmigoSecreto.innerHTML = `<li>Amigo Secreto : ${element}</li>`;
+        mostrarAmigoSecreto.innerHTML = `<li>El Amigo Secreto sorteado es: ${element}</li>`;
        /*
         let li = document.createElement('li'); // Crear elemento <li>
             li.textContent = amigoAsignado; // Agregar el nombre del amigo como texto
