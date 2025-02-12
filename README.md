@@ -64,3 +64,5 @@ Este proyecto existe gracias al curso de ONE Oracle Next Education y Alura Latam
 [<img src="https://avatars.githubusercontent.com/BibiTC" width=115><br><sub>Bibiana Trujillo</sub>](https://github.com/BibiTC)
 
 ## Licencia
+
+Challenge Amigo Secreto is [MIT licensed](./LICENSE).
