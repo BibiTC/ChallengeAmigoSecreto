@@ -16,22 +16,14 @@
 
 ## Indice
 
-* [Descripción del proyecto](#descripción-del-proyecto)
-
-* [Estado del proyecto](#Estado-del-proyecto)
-
-* [Funcionalidades del proyecto](#Funcionalidades-del-proyecto)
-
-* [Acceso al proyecto](#acceso-proyecto)
-
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
-
-* [Contribución](#contribucion)
-
-* [Autor](#Autor)
-
+* [Descripción del proyecto](#descripcion-del-proyecto)
+* [Estado del proyecto](#white_check_markestado-del-proyecto)
+* [Funcionalidades del proyecto](#hammerfuncionalidades-del-proyecto)
+* [Acceso al proyecto](#-acceso-al-proyecto)
+* [Tecnologías utilizadas](#white_check_marktecnologías-utilizadas)
+* [Contribución](#contribución)
+* [Autor](#autor)
 * [Licencia](#licencia)
-
 
 ## Descripcion del proyecto
 Esta aplicación permite a los usuarios ingresar nombres de sus amigos en una lista y luego realizar un sorteo aleatorio para determinar quien es el "amigo secreto".
