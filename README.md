@@ -41,9 +41,7 @@ La aplicación permite agregar nombres a traves de un campo texto y un boton añ
 ## 📁 Acceso al proyecto
 El proyecto se puede descargar o acceder al codigo fuente desde este link de GitHub, al abrir el archivo index.html se abrira la pagina que contiene toda la funcionalidad.
 
-<p align="center">
- <img src="https://github.com/BibiTC/ChallengeAmigoSecreto">
-</p>
+[GitHub - Challenge Amigo Secreto](https://github.com/BibiTC/ChallengeAmigoSecreto)
 
 ## 🛠️ Abre y ejecuta el proyecto
 El proyecto se puede ejecutar desde este link de page de GitHub
@@ -58,11 +56,10 @@ El proyecto se puede ejecutar desde este link de page de GitHub
 ## Contribución
 Este proyecto existe gracias al curso de ONE Oracle Next Education y Alura Latam, Grupo 8.
 
-## Autores
-- [GitHub](https://github.com/BibiTC/ChallengeAmigoSecreto)
+## Autor
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>BibiTC</sub>](https://github.com/BibiTC) |
+[<img src="https://avatars.githubusercontent.com/BibiTC" width=115><br><sub>BibiTC</sub>](https://github.com/BibiTC)
 
-## License
+## Licencia
 
 
