@@ -56,9 +56,12 @@ El proyecto se puede ejecutar desde este link de page de GitHub
 ## Contribución
 Este proyecto existe gracias al curso de ONE Oracle Next Education y Alura Latam, Grupo 8.
 
+[<img src="https://avatars.githubusercontent.com/alura-es-cursos" width=115><br><sub>Alura Latam</sub>](https://github.com/alura-es-cursos)
+
+
 ## Autor
 
-[<img src="https://avatars.githubusercontent.com/BibiTC" width=115><br><sub>BibiTC</sub>](https://github.com/BibiTC)
+[<img src="https://avatars.githubusercontent.com/BibiTC" width=115><br><sub>Bibiana Trujillo</sub>](https://github.com/BibiTC)
 
 ## Licencia
 
