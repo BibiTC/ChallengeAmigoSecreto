@@ -46,7 +46,7 @@ El proyecto se puede descargar o acceder al codigo fuente desde este link de Git
 ## 🛠️ Abre y ejecuta el proyecto
 El proyecto se puede ejecutar desde este link de page de GitHub
 
-
+[Page - Challenge Amigo Secreto](https://bibitc.github.io/ChallengeAmigoSecreto/)
 
 ## :white_check_mark:Tecnologías utilizadas
 - JavaScript
