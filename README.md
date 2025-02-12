@@ -35,23 +35,33 @@ La aplicación permite agregar nombres a traves de un campo texto y un boton añ
 - `Validar entrada`: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
 - `Visualizar la lista`: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 - `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+- `Validar Lista`: Si la lista tiene solo 1 elemento al sortear genera alerta notiicando que no hay suficientes amigos para sortear.
 
 
-## Acceso al proyecto
+## 📁 Acceso al proyecto
+El proyecto se puede descargar o acceder al codigo fuente desde este link de GitHub, al abrir el archivo index.html se abrira la pagina que contiene toda la funcionalidad.
+
 <p align="center">
  <img src="https://github.com/BibiTC/ChallengeAmigoSecreto">
 </p>
 
-## Tecnologías utilizadas
+## 🛠️ Abre y ejecuta el proyecto
+El proyecto se puede ejecutar desde este link de page de GitHub
+
+
+
+## :white_check_mark:Tecnologías utilizadas
 - JavaScript
 - HTML
 - CSS
-
-## Contacto
-- [GitHub](https://github.com/BibiTC/ChallengeAmigoSecreto)
-
+  
 ## Contribución
 Este proyecto existe gracias al curso de ONE Oracle Next Education y Alura Latam, Grupo 8.
+
+## Autores
+- [GitHub](https://github.com/BibiTC/ChallengeAmigoSecreto)
+
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>BibiTC</sub>](https://github.com/BibiTC) |
 
 ## License
 
